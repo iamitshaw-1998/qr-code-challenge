@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
-
 :root {
     --color-white: hsl(0, 0%, 100%);
     --greyish-blue: hsl(212, 45%, 89%);
     --light-grey: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
+    --light-blue-500: hsl(228, 45%, 44%);
+    --light-blue-600: hsl(228, 45%, 34%);
 }
 main {
     font-family: "Outfit", sans-serif;
@@ -21,13 +21,13 @@ main {
     align-items: center;
     max-width: clamp(17.5rem, 80vw, 22.5rem);
     background-color: var(--color-white);
-    padding: 1rem;
-    border-radius: 1.25rem;
+    padding: 1em;
+    border-radius: 1.25em;
 }
 .card__image-wrapper {
-    border-radius: 0.75rem;
+    border-radius: 0.75em;
     overflow: hidden;
-    margin-bottom: 1.25rem;
+    margin-block-end: 1.25em;
 }
 .card__image {
     object-fit: contain;
@@ -44,7 +44,7 @@ main {
     }
 }
 .card__details-wrapper {
-    padding-inline: 1.25rem;
+    padding-inline: 1.25em;
     text-align: center;
 }
 .card__heading {
@@ -54,8 +54,8 @@ main {
 }
 .card__information {
     font-weight: 400;
-    margin-block: 2rem;
-    padding-inline: 0.75rem;
+    margin-block: 2em;
+    padding-inline: 0.75em;
     color: var(--light-grey);
 }
 .attribution__wrapper {
@@ -66,8 +66,8 @@ main {
     font-size: 0.8125rem;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--light-blue-500);
 }
 .attribution a:hover {
-    color: hsl(228, 45%, 34%);
+    color: var(--light-blue-600);
 }
