@@ -32,8 +32,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/iamitshaw-1998/qr-code-challenge)
-- Live Site URL: [Add live site URL here](https://iamitshaw-1998.github.io/qr-code-challenge/)
+- Solution URL: [https://github.com/iamitshaw-1998/qr-code-challenge](https://github.com/iamitshaw-1998/qr-code-challenge)
+- Live Site URL: [https://iamitshaw-1998.github.io/qr-code-challenge/](https://iamitshaw-1998.github.io/qr-code-challenge/)
 
 ## My process
 
@@ -91,7 +91,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Frontend Mentor - [iamitshaw-1998](https://www.frontendmentor.io/profile/iamitshaw-1998)
+- Frontend Mentor - [@iamitshaw-1998](https://www.frontendmentor.io/profile/iamitshaw-1998)
 - Twitter - [@AmitShaw1998](https://x.com/AmitShaw1998)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
