@@ -23,7 +23,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: clamp(275px, 80vw, 350px);
+    max-width: clamp(17.5rem, 80vw, 22.5rem);
     background-color: var(--color-white);
     padding: 1rem;
     border-radius: 1.25rem;
@@ -36,19 +36,29 @@ main {
 .card__image {
     object-fit: contain;
     object-position: top;
-    max-width: min(70vw, 325px);
+    max-width: clamp(15rem, 70vw, 20rem);
+}
+
+@media screen and (width < 20rem) {
+    .card {
+        max-width: 100%;
+    }
+    .card__image {
+        width: 100%;
+    }
 }
 
 .card__details-wrapper {
     padding-inline: 1.25rem;
     text-align: center;
-    font-weight: 400;
 }
 .card__heading {
+    font-weight: 800;
     color: var(--dark-blue);
 }
 
 .card__information {
+    font-weight: 400;
     margin-block: 2rem;
     padding-inline: 0.75rem;
     color: var(--light-grey);
@@ -59,7 +69,7 @@ main {
     top: 5rem;
 }
 .attribution {
-    font-size: 13px;
+    font-size: 0.8125rem;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
