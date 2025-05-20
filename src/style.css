@@ -6,9 +6,6 @@
     --light-grey: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 }
-h2 {
-    font-size: clamp(0.875rem, calc(1rem + 1vw), 1.125rem);
-}
 main {
     font-family: "Outfit", sans-serif;
     background-color: var(--greyish-blue);
@@ -18,7 +15,6 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
 .card {
     display: flex;
     flex-direction: column;
@@ -38,25 +34,24 @@ main {
     object-position: top;
     max-width: clamp(15rem, 70vw, 20rem);
 }
-
-@media screen and (width < 20rem) {
+@media screen and (width <= 18rem) {
     .card {
+        border-radius: 0;
         max-width: 100%;
     }
     .card__image {
         width: 100%;
     }
 }
-
 .card__details-wrapper {
     padding-inline: 1.25rem;
     text-align: center;
 }
 .card__heading {
+    font-size: clamp(1.25em, calc(7vw + 0.5rem), 1.5em);
     font-weight: 800;
     color: var(--dark-blue);
 }
-
 .card__information {
     font-weight: 400;
     margin-block: 2rem;
@@ -64,9 +59,8 @@ main {
     color: var(--light-grey);
 }
 .attribution__wrapper {
+    margin-block-start: 1.125em;
     text-align: center;
-    position: relative;
-    top: 5rem;
 }
 .attribution {
     font-size: 0.8125rem;
